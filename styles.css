@@ -213,10 +213,11 @@ a {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  max-width: 350px;
 }
 
 .sampling-description,
-.hero-description  {
+.second-doors-container .hero-description {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
