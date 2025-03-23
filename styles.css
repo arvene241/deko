@@ -157,6 +157,11 @@ a {
   gap: 20px;
 }
 
+.doors-container .materials-grid,
+.second-doors-container .materials-grid {
+  gap: 22px;
+}
+
 .material-card,
 .technical-card {
   display: flex;
@@ -556,15 +561,15 @@ button {
   .hero-content {
     margin-left: 50px;
   }
+
+  .doors-container .hero-content {
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 1440px) {
   .form-fields {
     margin-top: 200px;
-  }
-
-  .big-sampling .sampling-specification {
-    margin-left: 140px;
   }
 
   .second-doors-container .hero-content {
@@ -577,12 +582,11 @@ button {
     margin-left: 90px;
   }
 
-  .big-sampling .sampling-specification {
-    margin-left: 70px;
+  .big-sampling {
+    gap: 155px;
   }
 
   .hero,
-  .big-sampling,
   .technical-container {
     gap: 81px;
   }
@@ -597,7 +601,7 @@ button {
 
   .doors-container .hero,
   .sampling {
-    gap: 165px;
+    gap: 147px;
   }
 
   .hero-middle-margin {
